@@ -40,7 +40,7 @@ hi Folded		guibg=#ECECEC guifg=#808080 gui=bold
 hi vimFold		guibg=#ECECEC guifg=#808080 gui=bold
 hi FoldColumn	guibg=#ECECEC guifg=#808080 gui=bold
 
-hi LineNr		guifg=#959595 guibg=#ECECEC gui=bold
+hi LineNr		guifg=#959595 guibg=#F8F8FF gui=bold
 hi NonText		guifg=#F8F8FF guibg=#F8F8FF
 hi Folded		guifg=#808080 guibg=#ECECEC gui=bold
 hi FoldeColumn  guifg=#808080 guibg=#ECECEC gui=bold
@@ -97,7 +97,7 @@ hi TypeDef      guifg=#000000 gui=bold
 " {{{ Completion menus
 hi WildMenu     guifg=#7fbdff guibg=#425c78 gui=none
 
-hi Pmenu        guibg=#808080 guifg=#ffffff gui=bold
+hi Pmenu        guibg=#ECECEC guifg=#808080 gui=bold
 hi PmenuSel     guibg=#cdcdfd guifg=#000000 gui=italic
 hi PmenuSbar    guibg=#000000 guifg=#444444
 hi PmenuThumb   guibg=#aaaaaa guifg=#aaaaaa
@@ -137,5 +137,5 @@ hi TabLine		guifg=#404040 guibg=#dddddd gui=none
 hi TabLineFill	guifg=#404040 guibg=#dddddd gui=none
 hi TabLineSel	guifg=#404040 gui=bold
 " }}}
-"
+
 " vim: sw=4 ts=4 foldmethod=marker
