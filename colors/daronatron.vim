@@ -1,11 +1,8 @@
 " Vim color file
 "
-" Author: Anthony Carapetis <anthony.carapetis@gmail.com>
+" Author: Daron Adkins <daron.adkins@gmail.com>
 "
 " Note: Based on github's syntax highlighting theme
-"       Used Brian Mock's darkspectrum as a starting point/template
-"       Thanks to Ryan Heath for an easy list of some of the colours:
-"       http://rpheath.com/posts/356-github-theme-for-syntax-gem
 
 hi clear
 
@@ -18,7 +15,7 @@ if version > 580
 	syntax reset
     endif
 endif
-let g:colors_name="github"
+let g:colors_name="daronatron"
 
 hi Normal       guifg=#000000 guibg=#F8F8FF
 
