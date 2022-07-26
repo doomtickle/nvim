@@ -5,10 +5,11 @@ A super opinionated starter to get up and running with NeoVim exactly like I do.
 ## Quickstart for Mac
 
 1. Run `brew install neovim`
-1. Navigate to (or create) `$HOME/.config/nvim/`
-1. Run `git clone https://github.com/daronatron/nvim .`
-1. Run `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-1. Run `nvim +PluginInstall +qall`
+1. `mkdir $HOME/.config/nvim/ && cd $HOME/.config/nvim`
+1. Run `git clone https://github.com/doomtickle/nvim .`
+1. Run `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
+1. Run `nvim +PlugInstall +qall`
 
 ---
 
@@ -38,7 +39,7 @@ We'll go over each of them below.
 
 As its name implies, this is where we'll list any plugins that we'll want to include on startup.
 
-This package assumes you will use [Vundle](https://github.com/VundleVim/Vundle.vim) as a plugin manager.
+This package assumes you will use [vim-plug](https://github.com/junegunn/vim-plug) as a plugin manager.
 If you would like to change this, simply edit your `plugins.vim` to reflect the requirements of your package manager.
 
 The plugins used in the current setup are:
