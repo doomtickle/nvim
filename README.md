@@ -7,10 +7,8 @@ A super opinionated starter to get up and running with NeoVim exactly like I do.
 1. `brew install neovim`
 1. `mkdir $HOME/.config/nvim/ && cd $HOME/.config/nvim`
 1. `git clone https://github.com/doomtickle/nvim .`
-1. ```
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-   ```
+1. `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 1. `nvim +PlugInstall +qall`
 
 ---
