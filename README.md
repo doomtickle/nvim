@@ -88,18 +88,18 @@ Neovim allows you to set global variables that your plugins and scripts can look
 
 ## keybindings.vim
 
-| Keybinding             | Description                          |
-| ---------------------- | ------------------------------------ |
-| &lt;leader&rt;;        | Go to next buffer                    |
-| &lt;leader&rt;a        | Go previous buffer                   |
-| &lt;leader&rt;vs       | Split screen vertically              |
-| &lt;leader&rt;w        | Force save buffer                    |
-| &lt;leader&rt;q        | Force save buffer and exit           |
-| &lt;leader&rt;-        | Delete current buffer without saving |
-| &lt;leader&rt;b        | Search open buffers                  |
-| &lt;leader&rt;f        | Search files (respects .gitignore)   |
-| &lt;CTRL+[h,j,k,l]&rt; | Navigate split windows               |
-| -                      | Toggle NerdTree                      |
+| Keybinding          | Description                          |
+| ------------------- | ------------------------------------ |
+| &lt;leader>;        | Go to next buffer                    |
+| &lt;leader>a        | Go previous buffer                   |
+| &lt;leader>vs       | Split screen vertically              |
+| &lt;leader>w        | Force save buffer                    |
+| &lt;leader>q        | Force save buffer and exit           |
+| &lt;leader>-        | Delete current buffer without saving |
+| &lt;leader>b        | Search open buffers                  |
+| &lt;leader>f        | Search files (respects .gitignore)   |
+| &lt;CTRL+[h,j,k,l]> | Navigate split windows               |
+| -                   | Toggle NerdTree                      |
 
 ## colorscheme
 
