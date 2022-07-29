@@ -103,7 +103,13 @@ Neovim allows you to set global variables that your plugins and scripts can look
 
 ## colorscheme
 
-Currently comes with one colorscheme that I based off of [vim-colors-github](https://vimcolorschemes.com/acarapetis/vim-colors-github), with a few modifications.
+Currently comes with two colorschemes. A light colorscheme that I based off of [vim-colors-github](https://vimcolorschemes.com/acarapetis/vim-colors-github), with a few modifications, and a dark theme based on OneDark.
+
+To switch colorschemes, type `:colo [color_file_name]` from inside nvim. For example:
+
+```
+:colo onedark
+```
 
 ### Changing the color scheme
 
