@@ -43,4 +43,5 @@ set updatetime=50
 set shortmess+=c
 " Jump to the new window when we split
 set spr
-
+" Line numbers are good
+set nu
