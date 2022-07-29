@@ -110,7 +110,3 @@ To switch colorschemes, type `:colo [color_file_name]` from inside nvim. For exa
 ```
 :colo onedark
 ```
-
-### Changing the color scheme
-
-To change the colorscheme, either create a new `your_theme_name.vim` file in the `colors/` directory or [download one](https://vimcolorschemes.com) from anywhere on the internet and change `colorscheme` variable to the filename of your new theme.
