@@ -4,6 +4,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer'
 Plug 'jiangmiao/auto-pairs'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'alvan/vim-closetag'
