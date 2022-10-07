@@ -2,6 +2,14 @@
 
 A super opinionated starter to get up and running with NeoVim exactly like I do.
 
+You will need to make sure you have the appropriate language servers installed. My settings expect `gopls`, `eslint`, and `tsserver`. If you do not have these installed globally on your local machine, you'll need to do so before following the quick start.
+
+`go install golang.org/x/tools/gopls@latest`
+
+`npm install -g eslint`
+
+`npm install -g --save typescript`
+
 ## Quickstart for Mac
 
 1. `brew install neovim`
